@@ -1,0 +1,8 @@
+# yum install -y flex byacc libpcap ncurses-devel libpcap-devel   #先要安装必需的软件  
+# mkdir iftop  
+# cd iftop/  
+# wget http://www.ex-parrot.com/pdw/iftop/download/iftop-1.0pre4.tar.gz #下载  
+# tar zxvf iftop-1.0pre4.tar.gz #解压  
+# cd iftop-1.0pre4  
+# ./configure #配置  
+# make && make install #编译安装
